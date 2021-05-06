@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<!-- ICS2O-Unit2-02-HTML-User_Input -->
+<html lang="en-ca">
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="Address, with Javascript">
+    <meta name="keywords" content="mths, ics2o">
+    <meta name="author" content="Infinity de Guzman">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="apple-touch-icon" sizes="180x180" href="./favicons/apple-icon-180x180.png">
+    <link rel="icon" type="image/ico" sizes="32x32" href="./favicons/sunset-32x32.ico">
+    <link rel="icon" type="image/ico" sizes="16x16" href="./favicons/sunset-16x16.ico">
+    <link rel="manifest" href="site.webmanifest">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Address, with a JS file</title>
+  </head>
+  <body>
+    <script src="./js/script.js"></script>
+    <h1>Address, with a JS file</h1>
+    <p>
+      <h3>Please enter the following:</h3>
+      <form action="javascript:enterClicked()">
+        <label for="snumber">Street Number</label>
+        <input type="number" id="street-number" placeholder="Enter your street number"><br><br>
+        <label for="sname">Street Name</label>
+        <input type="text" id="street-name" placeholder="Enter your street name"><br><br>
+        <input type="submit" value="Enter">
+      </form>
+    </p>
+    <div id="address"></div>
+  </body>
+</html>
